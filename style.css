@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@300&family=Rowdies:wght@700&family=Supermercado+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #fff;
+
+}
+
+#myTopnav{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(red,orange,green);
+    /*border-style: solid;*/
+    height: 20rem;
+    width: auto;
+    border-radius: 8px;
+}
+header h1{
+    height: 20px;
+    color: blue;
+    text-align: center;
+    background: linear-gradient(blue, white, red);
+}
+header h2{
+    text-align: center;
+    color: black;
+}
+.d1{
+    text-align: center;
+}
+h3{
+    color: black;
+    margin-top: 15px;
+}
+.d2{
+    border-style: solid;
+    border-radius: 5px;
+    height: 250px;
+    width: 250px;
+    margin-top: 15px;
+    text-align: center;
+}
+.apropo{
+    text-align: center;
+    height: auto;
+    margin: auto;
+    border-style: inset;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 250px;
+    background-color: blue;
+} 
+.apropo img{
+    float: left;
+}   
+.competence{
+    text-align: center;
+    height: auto;
+    margin: auto;
+    border-style: inset;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 250px;
+    background-color: #fff;
+}
+
+
+.experience{
+    text-align: center;
+    height: auto;
+    margin: auto;
+    border-style: inset;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 250px;
+    background-color: red;
+}
