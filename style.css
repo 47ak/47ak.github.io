@@ -23,11 +23,13 @@ body{
     width: auto;
     border-radius: 8px;
 }
+header{
+    height: 90px;
+    background: linear-gradient(blue, white, red);
+}
 header h1{
-    height: 20px;
     color: blue;
     text-align: center;
-    background: linear-gradient(blue, white, red);
 }
 header h2{
     text-align: center;
@@ -35,6 +37,8 @@ header h2{
 }
 .d1{
     text-align: center;
+    border-style: inset;
+    border-radius: 7px;
 }
 h3{
     color: black;
